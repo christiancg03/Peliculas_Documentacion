@@ -4,7 +4,7 @@ import List from "./List";
 export default {
   title: "Components/List",
   component: List,
-  tags: ["autodocs"],
+  // tags: ["autodocs"],
   
 };
 
