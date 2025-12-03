@@ -1,0 +1,29 @@
+import {Meta, Primary, Controls, Story} from '@storybook/addon-docs/blocks';
+import * as ListStories from './List.stories';
+import List from '../components/List';
+
+<Meta of={ListStories} />
+
+#Tarjeta de Intérprete (`<List />`)
+
+#Descripción General
+
+<Primary />
+
+#Tabla de Propiedades
+
+<Controls />
+
+#Ejemplo
+
+### Contenido por Defecto
+
+<Story of={ListStories.Default} />
+
+### Contenido Destacado
+
+<Story of={ListStories.Destacado} />
+
+### Contenido Con Foto Real y sin Descripción
+
+<Story of={ListStories.ConFotoReal} />
