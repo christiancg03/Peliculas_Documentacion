@@ -7,7 +7,7 @@ import Home from "../pages/Home";
 import Peliculas from "../pages/Peliculas";
 import Interpretes from "../pages/Interpretes";
 import Admin from "../pages/Admin";
-import FormularioAgrupado from "../pages/FormularioAgrupado";
+import Formulario from "../pages/Formulario";
 
 /**
  * AppRouter component defines the application's routing structure using React Router.
@@ -27,7 +27,7 @@ function AppRouter() {
         <Route path="/inicio" element={<Navigate to="/" />} />
         <Route path="/peliculas" element={<Peliculas />} />
         <Route path="/interpretes" element={<Interpretes />} />
-        <Route path="/formularioagrupado" element={<FormularioAgrupado />}/>
+        <Route path="/formulario" element={<Formulario />}/>
         <Route path="/admin" element={<Admin />} />
         <Route path="/detalle/pelicula/:idPeli" element={<Detail es="pelicula" />} />
         <Route path="/detalle/pelicula/:idPeli/interprete/:idInterprete" element={<Detail es="interprete" />} />

@@ -92,7 +92,7 @@ function Nav() {
         </NavLink>
 
           <NavLink
-          to="/formularioagrupado"
+          to="/formulario"
           onClick={closeMenu}
           className={({ isActive }) =>
             isActive
